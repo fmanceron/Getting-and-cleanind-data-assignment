@@ -8,8 +8,11 @@ and unzipped as described in the code instruction list
 ### raw data acquisition
 xtest: 		
 	
-	raw measurements test table / 2947 obs of 561 variables
+	raw measurements test table / 2947 obs of 561 variables  (561 features vector)
 
+		All the measurements are normalized and bounded within [-1,1]
+		Each feature vector is a row on the xtext and xtrain tables
+		
 xtrain:		
 	
 	raw measurements data training table / 7352 obs of 561 variables (561 features vector)
@@ -36,19 +39,19 @@ features:
 	
 ytest:		
 
-	raw features obs vector for the test phase / 	vector of 2947 obs
+	raw features obs vector for the test phase / vector of 2947 obs containing activity numbers
 
 ytrain:		
 
-	raw features obs vector for the training phase / 	vector of 7352 obs
+	raw features obs vector for the training phase / vector of 7352 obs containing activity numbers
 
 stest:		
 
-	raw subjects obs vector for the test phase / 	vector of 2947 obs
+	raw subjects obs vector for the test phase / vector of 2947 obs containing subjects numbers
 
 strain:		
 
-	raw subjects obs vector for the training phase / 	vector of 7352 obs
+	raw subjects obs vector for the training phase / vector of 7352 obs containing subjects numbers
 
 		Note: there are 30 different subjects whose number appears in the stest ans strain tables
 
