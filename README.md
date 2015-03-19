@@ -16,7 +16,7 @@ The project assignment for this "Getting an Cleaning Data" course is composed of
 		The code file is ready to be executed, provided the code and data files are in the appropriate directory, as described in the code file.
 
 
-  - A tidy data file called tidy_data.txt, produced by the run_analysis.r program in the working directory, as described in the instruction list
+ - A tidy data file called tidy_data.txt, produced by the run_analysis.r program in the working directory, as described in the instruction list
 
 		This text file should be read and checked by executing the following commands once you have downloaded it to your working directory
 				
